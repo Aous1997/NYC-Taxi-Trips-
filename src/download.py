@@ -4,7 +4,7 @@ Télecharger les fichiers Parquet NYC Taxi deouis l'API officielle
 import requests
 from pathlib import Path
 from datetime import datetime
-DATA_DIR = Path("data/raw")
+DATA_DIR = Path("./data/raw")
 DATA_DIR.mkdir(parents=True, exist_ok=True)
 BASE_URL = "https://d37ci6vzurychx.cloudfront.net/trip-data"
 TAXI_TYPES = ["yellow", "green", "fhv"]
